@@ -1,0 +1,375 @@
+h1 {
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+
+h1#title {
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    font-weight: 900;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+h3 {
+    margin: 0px;
+}
+
+h3#title {
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h4 {
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+a.inline_link {
+    color:#009ee0;
+    font-weight:900;
+}
+
+a.inline_link:hover {
+    color:#22BFF2;
+}
+
+img.title_badge {
+    border-radius: 150px;
+}
+
+img.badge_border {
+    border-width: 5px;
+    border-color: #444;
+    border-style: solid;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #444;
+    padding-top: 20px;
+    padding-left:0px;
+    padding-right:0px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #555555;
+    background-image: linear-gradient(to bottom,#88d5fe,#83ffcd);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#resources {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.resource_block {
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px;
+    width: 200px;
+}
+
+.module_block {
+    display: block;
+    margin: 30px;
+    text-align: left;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.module_block:hover {
+    display: block;
+    margin: 30px;
+    text-align: left;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.module_preview {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+    width: 30%;
+    height: auto;
+}
+
+.module_description {
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+    width: 55%;
+}
+
+.module_description h2 {
+    margin-top: 0px;
+}
+
+.smallfooter {
+    display: block;
+    min-height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.login_block {
+    display: inline-block;
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.login_block #fields {
+    text-align: left;
+}
+
+.login_block p {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.login_block input[type=text],input[type=password] {
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.std_button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    display: inline-block;
+    text-decoration:none;
+    padding: 10px;
+    background-color: #009ee0;
+    color: white;
+    font-size: 16px;
+    border: 3px solid #007cc0;
+    border-radius: 30px;
+    min-width: 150px;
+    margin: 10px;
+    font-weight: 900;
+}
+
+.std_button:hover {
+    background-color: #22BFF2;
+}
+
+.square_button {
+    display: inline-block;
+    text-decoration:none;
+    background-color: rgba(255,255,255,0.7);
+    color: #444;
+    font-size: 24px;
+    border: 1px solid #444;
+    border-radius: 12px;
+    width: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 900;
+}
+
+.square_button:hover {
+    background-color: #FFF;
+    color: #AAA;
+}
+
+.lite_button {
+    display: inline-block;
+    text-decoration:none;
+    background-color: rgba(255,255,255,0.7);
+    color: #444;
+    border: 1px solid #444;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 900;
+}
+
+.lite_button:hover {
+    background-color: #FFF;
+    color: #AAA;
+}
+
+.red_button {
+    display: inline-block;
+    text-decoration:none;
+    background-color: #f3645a;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 900;
+}
+
+.red_button:hover {
+    background-color: #F8B9AF;
+}
+
+.red_square_button {
+    display: inline-block;
+    text-decoration:none;
+    background-color: #f3645a;
+    color: white;
+    font-size: 24px;
+    border: 1px solid #444;
+    border-radius: 12px;
+    width: 15px;
+    padding-left: 9px;
+    padding-right: 9px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 900;
+}
+
+.red_square_button:hover {
+    background-color: #F8B9AF;
+}
+
+.white_panel {
+    display: inline-block;
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.white_panel input[type=text],input[type=datetime-local],textarea {
+    display: block;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width:calc(100% - 15px);
+}
+
+.white_panel textarea {
+    vertical-align: top;
+    resize: none;
+}
+
+#global_form td {
+    background-color: rgba(255,255,255,0.5);
+    padding: 5px;
+}
+
+#user_table td {
+    background-color: rgba(255,255,255,0.5);
+    min-width: 100px;
+    padding: 5px;
+}
+
+#assignments_table td {
+    background-color: rgba(255,255,255,0.5);
+    padding:15px;
+}
+
+#class_table td {
+    background-color: rgba(255,255,255,0.5);
+    padding: 5px;
+}
+
+#responseblock {
+    color: white;
+    padding:5px;
+    margin-bottom:10px;
+    text-align:left;
+}
+
+.special-text {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Show the tooltip on hover */
+.special-text:hover .special-text__tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.special-text__tooltip {
+  font-size: 12px;
+  display: inline;
+  line-height: normal;
+  
+  position: absolute;
+  left: -50%;
+  bottom: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+  background-color: #009ee0;
+  color: white;
+  white-space: nowrap;
+  
+  /* Hide the tooltip by default */
+  visibility: hidden;
+  opacity: 0;
+  
+  /* Prettify */
+  text-align: left;
+ 
+}
+
+/* The bordered part of the triangle */
+
+.special-text__tooltip::before,
+.special-text__tooltip::after {
+  content: "";
+  position: absolute;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  top: 100%;
+  left: 50%;
+  margin-left: 1px;
+}
+
+.special-text__tooltip::before {
+  border-top: 1px solid #FF00FF;
+  margin-top: 5px;
+}
+
+/* The white fill of the triangle */
+.special-text__tooltip::after {
+  border-top: 1px solid white;
+  margin-top: -2px;
+  z-index: 1;
+}
+
+.student_assignment_row {
+}
+
+.student_assignment_row:hover {
+    cursor: pointer;
+    background-color: rgba(255,255,255,1.0);
+}
+
+.webgl-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

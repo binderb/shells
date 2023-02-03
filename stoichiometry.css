@@ -1,0 +1,244 @@
+:root {
+    --limiting-dim: 100;
+}
+
+.prompt_container .stoich {
+    overflow: auto;
+    display: block;
+    width: 100%;
+    height: calc(22% - 10px);
+    padding-top: 10px;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.prompt_link {
+    display: inline-block;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+}
+
+.stoich_container {
+    overflow: auto;
+    display: block;
+    width: 100%;
+    height: 50%;
+    max-height: 200px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.context_box {
+    overflow: auto;
+    display: table;
+    width: 100%;
+    height: 25%;
+    max-height: 150px;
+    margin-top:15px;
+    margin-bottom:15px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.stoich_initial {
+    cursor: pointer;
+    display: table;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.stoich_initial_text {
+    cursor: pointer;
+    display: table-cell;
+    vertical-align: middle;
+    padding:15px;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgba(255,255,255,0.9);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.stoich_box {
+    cursor: pointer;
+    overflow: auto;
+    display: block;
+    width: calc(100%-80px);
+    height: 100%;
+    max-height: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.2);
+    /*box-shadow: inset 0 0 20px rgba(255,255,255,0.5);*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.stoich_term {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 10px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.stoich_selected {
+    margin: 7px;
+    border: 3px inset var(--palette-blue);
+    box-shadow: inset 0 0 10px rgba(255,255,255,0.5);
+}
+
+.stoich_value {
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.stoich_units {
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.stoich_strikethrough {
+    /*background-image: gradient(linear, 19.1% -7.9%, 81% 107.9%, color-stop(0, transparent), color-stop(.48, transparent), color-stop(.5, #000), color-stop(.52, transparent), color-stop(1, transparent));*/
+    /*background-image: repeating-linear-gradient(45deg, transparent 0%, transparent 44%, #444 45%, #444 54%, transparent 55%, transparent 100%);*/
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    color: var(--palette-blue);
+}
+
+.stoich_times {
+    cursor: pointer;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    display: inline-block;
+    font-weight: 900;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.stoich_times p {
+    font-size: 14px;
+}
+
+.stoich_line {
+    cursor: pointer;
+    display: block;
+    height: 2px;
+    width: 95%;
+    background-color: #444;
+    margin: 0 auto;
+}
+
+.stoich_placeholder {
+	border-radius: 20px;
+	margin: 10px;
+	padding: 10px;
+	display: inline-block;
+	background-color: transparent;
+	visibility: visible;
+	vertical-align: middle;
+	box-shadow: inset 0 0 20px rgba(255,255,255,0.7);
+}
+
+#context_result {
+	display:table;
+	vertical-align:middle;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+#result_box {
+	display: inline-table;
+	margin:10px;
+	width: calc(70% - 20px);
+	height: calc(100% - 20px);
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 30px;
+    background-color: rgba(255,255,255,0.35);
+}
+
+#result_box_text{
+	display:table-cell;
+	vertical-align: middle;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.shine_class {
+    background-image: linear-gradient(-60deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 10%, rgba(255,255,255,0.6) 40%, rgba(255,255,255,0.6) 50%, rgba(255,255,255,0) 80%, rgba(255,255,255,0) 100%);
+    background-repeat: no-repeat;
+    animation-name: shine;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.glow_pulse_class {
+	background-color: rgba(255,255,255,0.35);
+	animation-name: stoich_glow_pulse;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.glow_pulse_text_class {
+	color: #444;
+	animation-name: stoich_glow_pulse_text;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes shine {
+	0% {
+		background-position: calc(-1 * 100vw ) center;
+	}
+	100% {
+		background-position: calc(100vw) center;
+	}
+}
+
+@-webkit-keyframes stoich_glow_pulse {
+	0% {
+		background-color: rgba(255,255,255,0.7);
+	}
+	100% {
+		background-color: rgba(255,255,255,0.35);
+	}
+}
+
+@-webkit-keyframes stoich_glow_pulse_text {
+	0% {
+		color: white;
+	}
+	100% {
+		color: #444;
+	}
+}
