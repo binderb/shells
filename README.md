@@ -13,3 +13,5 @@ Having acquired the necessary skills since then, I hope to refactor this project
 ## Usage
 
 For now, this repository is an archive for the legacy code, and is not very portable. Still, it may be interesting to peruse in its current state. A MERN-based refactor will be forthcoming.
+
+A working, deployed instance of this app can be found [here](https://binderlab.org/app_shells).
